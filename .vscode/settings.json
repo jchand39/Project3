@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "submit"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/*.jar"
+    ],
+    "java.project.outputPath":"build"
+}
