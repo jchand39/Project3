@@ -135,6 +135,9 @@ public class MelodyTest {
         assertFalse("reverse() should return false for null song", result);
     }
 
+    /**
+     * Test of reverse method with an empty song, of class Melody.
+     */
     @Test
     public void testReverseWithEmptySong() {
         Melody melody = new Melody(new LinkedQueue<>(), "Title", "Artist", 0);

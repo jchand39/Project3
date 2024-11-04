@@ -2,7 +2,7 @@ package melody.apps;
 
 import itsc2214.QueueADT;
 import itsc2214.StackADT;
-import javafx.scene.shape.Line;
+// import javafx.scene.shape.Line;
 import datastructures.*;
 import melody.audio.Note;
 
@@ -131,10 +131,9 @@ public class Melody {
         StackADT<Note> songStack = new LinkedStack<>();
 
         while (! song.isEmpty()) {
-           songStack.push(song.dequeue());
+            songStack.push(song.dequeue());
         }
         while (!songStack.isEmpty()) {
-            ;
             song.enqueue(songStack.pop());
         }
 
